@@ -2,6 +2,73 @@
 @tailwind components;
 @tailwind utilities;
 
+input[type="radio"]{
+    -webkit-appearance: radio;
+}
+
+.radio{
+  appearance: auto !important;
+  color: red;
+}
+ label{
+  border-radius: 5px;
+    background-color: #232A33;
+    padding: 7px;
+}
+.mibg{
+  background-color: #1D232A !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .pad{
+    width: 16rem !important;
+  }
+  }
+
+html, .card,.card-body,.divider{
+  background-color: #1D232A !important;
+}
+
+.card-body, span, h2, div{
+  color: #A6ADBB !important;
+}
+.sisi{
+  display: normal;
+}
+.nono{
+  display: none;
+}
+
+.pad-b{
+  padding-bottom: 1rem;
+}
+.pad-lb{
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.col-2{
+  display: flex;
+  justify-content: space-between;
+}
+.cent{
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.pad{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.marg-r{
+  margin-right: 0.5rem;
+}
+.marg-b{
+  width: 89.5px;
+  margin-bottom: 1rem;
+}
+.lado{
+  display: flex;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,8 +76,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1D232A;
 }
-
+.navbar{
+  background-color:#1D232A;;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
